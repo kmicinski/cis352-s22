@@ -272,9 +272,9 @@ layout: mainpage
       <td><a href="https://www.youtube.com/watch?v=DC-9wWgXQTc&list=PLXaqTeMx01E-l20YhTNwN4xncM-1jweqG&index=23">Church Numerals</a></td>
     </tr>
     <tr class="table-warning">
-      <th scope="row">4/5</th>
+      <th scope="row">3/24</th>
       <td>Project</td>
-      <td>P4</td>
+      <td>P3</td>
       <td>Definitional Interpreter for Scheme</td>
     </tr>
     <tr class="table-danger">
@@ -302,7 +302,7 @@ layout: mainpage
       <td><a href="https://www.youtube.com/watch?v=K-AhJgjb-8s">Continuations Introduction</a></td>
     </tr>
     <tr class="table-warning">
-      <th scope="row">3/24</th>
+      <th scope="row">4/5</th>
       <td>Project</td>
       <td>P4</td>
       <td><a href="https://www.youtube.com/watch?v=izfoxmSAQ28&list=PLXaqTeMx01E-l20YhTNwN4xncM-1jweqG&index=24">Church Encoding</a></td>
