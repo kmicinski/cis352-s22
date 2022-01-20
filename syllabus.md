@@ -45,7 +45,7 @@ three categories of assignments:
   - Groups that present answers to in-class questions will receive 1 point.
 - 6 programming projects
   - Projects are assigned throughout the term. All projects are due at
-    11:59PM the last day of classes at SU (Friday, May 14, 2021 at
+    11:59PM the last day of classes at SU (Wednesday, May 4, 2022 at
     11:59PM US Eastern Time).
   - 1 participation point will be awarded to all students who have &gt;50% test completion within 10 days of project handout.
   - Projects will be graded via the autograder.
