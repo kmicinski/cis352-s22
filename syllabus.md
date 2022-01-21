@@ -240,6 +240,12 @@ to use the Git interface to the autograder--the autograder will
 technically accept archives, but the instructors strongly prefer
 students (and will exclusively help support) using Git.
 
+##### Project Late Policy
+
+- Projects turned in within 72 hours of the deadline will receive a 15
+  percent penalty. Projects turned in after 72 hours and until the end
+  of the course will receive a 25 percent penalty.
+
 #### Exams
 
 Exams explicitly measure your ability to materialize solutions to
