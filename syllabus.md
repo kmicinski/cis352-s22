@@ -249,7 +249,7 @@ which will have up to 12 questions, based on the number of topics
 presented so far in the course. Each exam will be cumulative, and for
 each question number N (between 1 and 12) the content will be roughly
 the same with a different question. These questions correspond to the
-learning objectives (see [Objectives](/learning-objecties).
+learning objectives (see top of page).
 
 You will always get your *maximum* grade on any one problem. You can
 keep submitting (say) problem 5 until you either run out of chances
