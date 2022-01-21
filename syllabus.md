@@ -11,52 +11,95 @@ notice to students.
 
 An introduction to the design and implementation of programming
 languages, focused on operational semantics and interpreters. This
-course is heavily project-focused and usees a specification-based
-grading rubric to teach both formal (written) and practical (coding)
-skills.
+course is heavily project-focused, and a specific emphasis will be
+placed upon training in algorithmic thinking and programming strategy.
 
 **Workload**:
   - Asynchronous video lecture units (at most ~80min per week)
+    - We assume you have watched the videos before class
   - Participation points:
     - Quiz before each lecture (closes as lecture begins)
     - See other sources of participation below
-  - 6 projects
-  - 3 quizzes and a final, all cumulative (see grading note).
-  - This will be a project intensive class. Approximately 6-10
-    hours per week *outside* of class will be expected from
-    students. I recommend against taking this course concurrent with
-    other project-heavy courses.
+  - 5 projects
+  - 4 in-person quizzes (80 minutes, on paper) and a final (120 minutes, on paper)
+  - This will be a project-focused. Approximately 3-5 hours per week
+    outside of class is expected. I recommend against taking this
+    course concurrent with other project-heavy courses.
+
+**No Monday Labs**:
+ - As a 3-credit course, Monday labs are not required as part of the
+   curriculum. Instead, the professor and TAs will likely plan to hold
+   some Monday office hours instead.
 
 ## Grading
 
-CIS352 employs a *specification-based grading* methodology. There are
-three categories of assignments:
+Grading has been simplified compared to previous offerings of
+CIS352. For Spring 2022, there are only two major components to the
+grade: exams and projects, which are both grade on a percent
+scale. Participation possibly adds a "plus" (i.e., A- to A), a
+"minus," (A to A-) or no change at all (B remains B) to the grade
+based how much participation is done.
 
-- Participation Credit (at least 30+ available)
-  - &gt;50% participation quiz (on Blackboard) before each class gives 1 point, closes when class begins.
-  - Volunteering to livecode in class gives 2 points. Students are
-    encouraged to present, and we will work to establish a positive
-    environment where all students can make progress even if they
-    don't at first succeed. However, if you feel you simply cannot
-    livecode in class you may ask me about doing some individualized
-    programming instruction with the TAs / instructor instead.
-  - "Introduce yourself" to class (1 minute answer to question) gives 1 point.
-  - "Meet your professor" to discuss career goals gives 1 point.
-  - Groups that present answers to in-class questions will receive 1 point.
-- 6 programming projects
-  - Projects are assigned throughout the term. All projects are due at
-    11:59PM the last day of classes at SU (Wednesday, May 4, 2022 at
-    11:59PM US Eastern Time).
-  - 1 participation point will be awarded to all students who have &gt;50% test completion within 10 days of project handout.
-  - Projects will be graded via the autograder.
-- 12 exam questions
-  - There are three 60-minute quizzes and one 120-minute exam.
-  - *All* quizzes / exams will be cumulative.
-  - Exam questions will all be derived from the [written learning
-    objectives]({{ "/learning-objectives" | absolute_url }}) for
-    CIS352.
+There is a detailed chart below explaining the grading policy, but it
+is roughly this: (a) there are exams and projects, (b) if you get at
+least an 80% in one category and at least a 90% in the other, you will
+get an A (and so on), (c) if you get fewer than 20 participation
+points, you will get a "minus" taken from your grade in (b), [20-30)
+participation points will cause no change, and >=30 participation
+points will add a "plus" to the grade. Note that there is no A+,
+however, the professor will track this information for recommendation
+letters and references.
 
 ### Informal Grading Rules for CIS352
+
+- Your grade consists of participation, projects, and quiz / exam
+  questions.
+- The bulk of this is projects and exams, and most of your time will
+  be spent on projects.
+
+Project Grading:
+- Projects are graded on a percentage basis, based on the number of
+  passing tests (including some hidden tests).
+- Projects are graded via the autograder. You may submit as many times
+  as you like up until 11:59PM on the day of the project's
+  deadline. However, the autograder will rate-limit you by providing
+  you with a set number of tokens per day.
+
+Exam Grading:
+- There are 12 exam questions, and *every* quiz/exam is
+  cumulative. Each of the twelve questions will cover the same rough
+  topics (learning objectives), and you will always get the *maximum*
+  grade throughout the entire course on a project.
+  - As an example, if you get 4/5 points on question 1 on quiz 1, and
+    5/5 points on question 1 (different question, same topic) on quiz
+    2, you will have achieved the max score on question 1 and need not
+    reattempt it in the rest of the course.
+- There will be 4 in-person "quizzes" that take the whole class
+  period. They will be in class roughly every few weeks.
+  - You may submit up to *six* answers per quiz.
+- There will be a cumulative final where you will see (again) all 12
+  exam questions. You may submit up to *eight* answers on the final
+  (to raise your previous grade on each of eight questions, possibly
+  to 100% for that question)
+
+Participation:
+- There are many opportunities for participation points, outlined
+  below. You need at least 20 in the course, otherwise you will get a
+  "minus" (e.g., A to A-). If you get more than 30 participation
+  points, you get a "plus" (e.g., A- to A).
+
+Final Grading:
+- Finally, your grade is given using the table below based on the
+  higher and lower of your exam / project grades. Roughly: you will
+  get an A with 80% in one category (exams/projects) and 90% in the
+  other (and so on at 2-3-point intervals), and then a
+  plus/minus/no-change will be taken based on participation.
+
+Example:
+- Janice gets an average of 85% on the projects, as reported by the
+  Autograder. Janice gets a 87% on the exams, as reported by
+  BlackBoard. Janice would get an A-, but also has 31 participation
+  points, so gets an A.
 
 <div class="container">
   <div class="row">
@@ -64,98 +107,60 @@ three categories of assignments:
       <table class="table table-sm table-striped grade-table table-hover">
         <thead>
           <tr class="gradestop">
-            <th class="projdesc" colspan="3" scope="col"><strong>Projects</strong></th>
-            <th class="examdesc" colspan="2" scope="col"><strong>Exam Questions</strong></th>
+            <th class="projdesc" colspan="1" scope="col"><strong>Projects/Exams</strong></th>
+            <th class="examdesc" colspan="1" scope="col"><strong>Projects/Exams</strong></th>
             <th scope="col">Grade</th>
-          </tr>
-          <tr class="gradestop">
-            <th class="smhgradecol" scope="col">Minimal</th>
-            <th class="smhgradecol" scope="col">Satisfactory</th>
-            <th class="lghgradecol" scope="col">Excellent</th>
-            <th class="smhgradecol" scope="col">Satisfactory</th>
-            <th class="lghgradecol" scope="col">Excellent</th>
-            <th scope="col"></th>
           </tr>
         </thead>
         <tbody>
           <tr id="gradea">
-            <td class="smgradecol">6/6</td>
-            <td class="smgradecol">5/6</td>
-            <td class="lggradecol">3/6</td>
-            <td class="smgradecol">12/12</td>
-            <td class="lggradecol">6/12</td>
+            <td class="lggradecol">90</td>
+            <td class="lggradecol">80</td>
             <th scope="row">A</th>
           </tr>
           <tr id="gradeam">
-            <td class="smgradecol">5/6</td>
-            <td class="smgradecol">5/6</td>
-            <td class="lggradecol">2/6</td>
-            <td class="smgradecol">11/12</td>
-            <td class="lggradecol">5/12</td>
+            <td class="lggradecol">87</td>
+            <td class="lggradecol">77</td>
             <th scope="row">A-</th>
           </tr>
           <tr>
-            <td class="smgradecol">4/6</td>
-            <td class="smgradecol">4/6</td>
-            <td class="lggradecol">2/6</td>
-            <td class="smgradecol">10/12</td>
-            <td class="lggradecol">5/12</td>
+            <td class="lggradecol">85</td>
+            <td class="lggradecol">75</td>
             <th scope="row">B+</th>
           </tr>
           <tr>
-            <td class="smgradecol">4/6</td>
-            <td class="smgradecol">3/6</td>
-            <td class="lggradecol">1/6</td>
-            <td class="smgradecol">9/12</td>
-            <td class="lggradecol">4/12</td>
+            <td class="lggradecol">83</td>
+            <td class="lggradecol">73</td>
             <th scope="row">B</th>
           </tr>
           <tr>
-            <td class="smgradecol">4/6</td>
-            <td class="smgradecol">3/6</td>
-            <td class="lggradecol">1/6</td>
-            <td class="smgradecol">9/12</td>
-            <td class="lggradecol">3/12</td>
+            <td class="lggradecol">80</td>
+            <td class="lggradecol">70</td>
             <th scope="row">B-</th>
           </tr>
           <tr>
-            <td class="smgradecol">3/6</td>
-            <td class="smgradecol">2/6</td>
-            <td class="lggradecol">1/6</td>
-            <td class="smgradecol">8/12</td>
-            <td class="lggradecol">2/12</td>
+            <td class="lggradecol">77</td>
+            <td class="lggradecol">67</td>
             <th scope="row">C+</th>
           </tr>
           <tr>
-            <td class="smgradecol">3/6</td>
-            <td class="smgradecol">3/6</td>
-            <td class="lggradecol">1/6</td>
-            <td class="smgradecol">8/12</td>
-            <td class="lggradecol">1/12</td>
+            <td class="lggradecol">74</td>
+            <td class="lggradecol">64</td>
             <th scope="row">C</th>
           </tr>
           <tr>
-            <td class="smgradecol">3/6</td>
-            <td class="smgradecol">3/6</td>
-            <td class="lggradecol">0/6</td>
-            <td class="smgradecol">8/12</td>
-            <td class="lggradecol">0/12</td>
+            <td class="lggradecol">70</td>
+            <td class="lggradecol">60</td>
             <th scope="row">C-</th>
           </tr>
           <tr>
-            <td class="smgradecol">3/6</td>
-            <td class="smgradecol">2/6</td>
-            <td class="lggradecol">0/6</td>
-            <td class="smgradecol">6/12</td>
-            <td class="lggradecol">0/12</td>
+            <td class="lggradecol">60</td>
+            <td class="lggradecol">50</td>
             <th scope="row">D</th>
           </tr>
           <tr>
-            <td class="smgradecol">&lt; 3/6</td>
-            <td class="smgradecol">&lt; 3/6</td>
-            <td class="lggradecol">0/6</td>
-            <td class="smgradecol">&lt; 7/12</td>
-            <td class="lggradecol">0/12</td>
+            <td class="lggradecol">&lt; 60</td>
+            <td class="lggradecol">&lt; 50</td>
             <th scope="row">&lt;D</th>
           </tr>
         </tbody>
@@ -221,68 +226,119 @@ three categories of assignments:
   </div>
 </div>
 
-<!-- <script> -->
-<!-- $(document).ready(function() { -->
-<!--   window.update_gpa = function(p0,p1,p2,e0,e1) { -->
-<!--     var update = function(id,num,tot) { -->
-<!--       var r = id.attr('r'); -->
-<!--       var c = Math.PI*(r*2); -->
-<!--       var doffset = (1-(num/tot))*c; -->
-<!--       id.css({'stroke-dasharray': `${c} ${c}`}); -->
-<!--       id.css({'stroke-dashoffset': `${circumference}`}); -->
+
+#### Projects
+
+There are *five programming projects* in the Racket programming
+language. Projects will generally have deadlines of roughly 12
+calendar days from their assignment (though this may be adjusted at
+times). Projects will be graded using an *autograder* whose URL is
+[https://autograder.org](https://autograder.org). You will receive
+credentials for the autograder--if you have not received these by the
+first day of class, let Chang (TA) know. You are expected to learn how
+to use the Git interface to the autograder--the autograder will
+technically accept archives, but the instructors strongly prefer
+students (and will exclusively help support) using Git.
+
+#### Exams
+
+Exams explicitly measure your ability to materialize solutions to
+questions regarding relevant course content in an open-ended
+fashion. There will be four "quizzes" through the semester, each of
+which will have up to 12 questions, based on the number of topics
+presented so far in the course. Each exam will be cumulative, and for
+each question number N (between 1 and 12) the content will be roughly
+the same with a different question. These questions correspond to the
+learning objectives (see [Objectives](/learning-objecties).
+
+You will always get your *maximum* grade on any one problem. You can
+keep submitting (say) problem 5 until you either run out of chances
+(the final) or achieve full marks on that question.
+
+We see in-person exams as a crucial counterpart to coding projects in
+determining the course grade. We recognize exams can be stressful. It
+is our intention that our grading scheme (frequent quizzes that allow
+you to raise your score after several attempts at the same material,
+along with the fact that a lower score in exams may be offset by
+project grades) will help assuage exam-related stress. However, the
+instructors strongly encourage students to look into the resources
+provided by the Barnes Center (such as extended exam time) if a
+student thinks their academic performance is impeded by exam-related
+stress.
+
+#### Participation Credit (at least 30+ available)
+
+Lots of participation credit will be available. Last year, the
+most-participating student accrued 43 participation points. You get
+participation in several ways:
+  - &gt;50% participation quiz (on Blackboard) before each class gives
+    1 point, closes when class begins. (I.e., there is a quiz for
+    *each class* that goes along with the videos.)
+  - Volunteering to livecode in class gives 2 points. Students are
+    encouraged to present, and we will work to establish a positive
+    environment where all students can make progress even if they
+    don't at first succeed. However, if you feel you simply cannot
+    livecode in class you may ask me about doing some individualized
+    programming instruction with the TAs / instructor instead.
+  - "Introduce yourself" to class (1 minute answer to question) gives 1 point.
+  - "Meet your professor" to discuss career goals gives 1 point.
+  - Groups that present answers to in-class questions will receive 1 point.
+
+#### Collaboration and the Honor Code
+
+- Assignments and exams must be completed alone, without exception.
+
+- Specifically, you must never send your code to anyone or allow
+  anyone to watch you code, obtain your code, study your code, copy
+  your code, etc... We expect you will take reasonable precautious to
+  ensure the secrecy of your solutions (e.g., closing your laptop
+  before leaving your apartment, if living with other students).
+- The autograder employs elaborate cheat-detection techniques. These
+  techniques will compare your code to other students' submissions,
+  along with students from previous years. The TAs will be using these
+  features to periodically scan for students who are cheating. Past
+  experience shows us that this system is very robust, and has allowed
+  us to detect several large clusters of collaborating students.
+- All apparent cases (with credible evidence, as determined by lead
+  instructor) of academic dishonesty will be reported, even if the
+  student believes they made an honest mistake, or no mistake at
+  all. We understand honor violations are stressful processes, and
+  thus we strive to only submit honor code cases when we believe there
+  is clear evidence that the honor board should review our findings
+  independently.
+- You may collaborate, to any degree you want, with anyone (even
+  outside of your group) on participation coding exercises. These will
+  be clearly labeled, and are specifically not the course projects
+  (which explicitly disallow any form of collaboration).
+- While we recommend you discuss the project specification with your
+  peers, you should basically never be getting help from peers about
+  your code. In particular, you should never be showing another
+  student your project code. If you do discuss coding about the
+  project with another student, it should only be in the abstract
+  (e.g., "can you use operator overloading to implement that?" or "do
+  you think it would be sensible to implement this with `map`?") and
+  not particularized to your codebase. We understand that this can be
+  a challenging line to walk, and thus, we recommend the following
+  heuristic: when talking to other students about code, discuss mostly
+  the in-class exercises and participation coding exercises.
+- Cite all help other than the professor, T.A., and
+  required/recommended text (you are allowed to cite those if you
+  wish, but it is not required unless you are specifically told
+  otherwise); note that proper citation is sufficient to avoid any
+  charge of academic dishonesty, and we will not be particularly
+  focused on copyright law during lab work.
+**Again**: You should **never** share code with another student. This
+  includes both sending a file to another student and "over the
+  shoulder" copying (even when, e.g., variable names are changed,
+  etc..). In the eyes of the instructor, these are both equally
+  bad. You should never be sitting and helping another along by
+  writing their code. By doing so you are both violating the honor
+  policy and disadvanting the student you are helping (as they may not
+  then properly learn the material).
 
 
-<!-- id.css({ 'stroke-dasharray': doffset}) -->
-<!--     } -->
-<!--     update($('.pminimal'),p0,6); -->
-<!--     update($('.psat'),p1,6); -->
-<!--     update($('.pex'),p2,6); -->
-<!--     update($('.esat'),e0,12); -->
-<!--     update($('.eex'),e1,12); -->
-<!--   } -->
-<!--   $('#gradea').hover(function() { window.update_gpa(6,5,3,12,6); }); -->
-<!--   $('#gradeam').hover(function() { window.update_gpa(5,5,2,11,5); }); -->
-<!--   $('#gradebp').hover(function() { window.update_gpa(4,4,2,10,5); }); -->
-<!-- }); -->
-<!-- </script> -->
 
-- Your grade consists of participation, projects, and quiz / exam
-  questions.
-- The bulk of this is projects and exams, and most of your time will
-  be spent on projects.
-- Projects are graded as either non-satisfactory,
-  minimally-satisfactory, satisfactory, or excellent.
-- Projects are graded via the autograder. You may submit as many times
-  as you like up until 11:59PM on the last day of class (Friday, May
-  14 at 11:59PM). However, the autograder will rate-limit you by
-  providing you with a set number of tokens per day. Specs for
-  minimal, satisfactory, and excellent are given on a per-project
-  basis.
-- There are 12 quiz / exam questions, and every exam is cumulative. If
-  you miss a question on Q0, you can reattempt the same learning
-  outcome (e.g., basic recursion) on Q1 and so on.
-- However, students may only submit up to six answers for each quiz / exam.
-- Quizzes are 60 minutes, and include questions for each learning
-  objective covered in the course so far. The final is cumulative and
-  is scheduled for 120 minutes. While you may still submit only six
-  new answers, the expanded time may give you time to refine excellent
-  solutions.
-- Based on the above, you may represent your project grade as a
-  three-tuple (p₀,p₁,p₂) where p₀ specifies the number of minimal
-  projects, p₁ the number of satisfactory, and p₂ the number of
-  excellent projects you have submitted. Remember that each
-  satisfactory project is also minimally-satisfactory and so on.
-- Similarly, exam questions may be represented as a pair (e₀,e₁) where
-  e₀ represents the number of satisfactory solutions and e₁ represents
-  the number of excellent solutions.
-- Using the project grade (p₀,p₁,p₂) and exam grades (e₀,e₁) you may
-  calculate a raw gradepoint using the table below. The final
-  gradepoint is given by taking a minus of the raw gradepoint (e.g.,
-  decreasing 4.0 to 3.7) if participation points are < 20, make no
-  change if participation points are > 20 but < 30, and add a plus
-  (e.g., bumping 3.7 to 4.0) if participation grade is ≥ 30. Note that
-  assigned grades cannot go above 4.0, but the instructor will track
-  this for recommendation letters and references.
+
 
 
 
@@ -400,74 +456,6 @@ three categories of assignments:
 <!-- - Hygienic macros -->
 <!-- - Logic programming -->
 <!-- - MiniKanren -->
-
-## Projects and Labs
-
-This course will have six individual projects. Each of these will be
-completed using the course's autograder. Projects will be handed out
-every few weeks, starting after the second or third week of class. All
-projects are due at 11:59PM the last day of class.
-
-Labs will be led by the TA or instructor to facilitate studying and
-reviewing material presented in lecture.
-
-## Collaboration and the Honor Code
-
-- Assignments and exams must be completed alone, without exception.
-
-- Specifically, you must never send your code to anyone or allow
-  anyone to watch you code, obtain your code, study your code, copy
-  your code, etc... We expect you will take reasonable precautious to
-  ensure the secrecy of your solutions.
-
-- The autograder employs elaborate cheat-detection techniques. These
-  techniques will compare your code to other students' submissions,
-  along with students from previous years. The TAs will be using these
-  features to periodically scan for students who are cheating. Past
-  experience shows us that this system is very robust, and has allowed
-  us to detect several large clusters of collaborating students. We
-  hope that specification-based grading will assuage this.
-
-- All apparent cases (with credible evidence, as determined by lead
-  instructor) of academic dishonesty will be reported, even if the
-  student believes they made an honest mistake, or no mistake at
-  all. We understand honor violations are stressful processes, and
-  thus we strive to only submit honor code cases when we believe there
-  is clear evidence that the honor board should review our findings
-  independently.
-
-- You may collaborate, to any degree you want, with anyone (even
-  outside of your group) on participation coding exercises. These will
-  be clearly labeled, and are specifically not the course projects
-  (which explicitly disallow any form of collaboration).
-
-- While we recommend you discuss the project specification with your
-  peers, you should basically never be getting help from peers about
-  your code. In particular, you should never be showing another
-  student your project code. If you do discuss coding about the
-  project with another student, it should only be in the abstract
-  (e.g., "can you use operator overloading to implement that?" or "do
-  you think it would be sensible to implement this with `map`?") and
-  not particularized to your codebase. We understand that this can be
-  a challenging line to walk, and thus, we recommend the following
-  heuristic: when talking to other students about code, discuss mostly
-  the in-class exercises and participation coding exercises.
-
-- Cite all help other than the professor, T.A., and
-  required/recommended text (you are allowed to cite those if you
-  wish, but it is not required unless you are specifically told
-  otherwise); note that proper citation is sufficient to avoid any
-  charge of academic dishonesty, and we will not be particularly
-  focused on copyright law during lab work.
-
-**Again**: You should **never** share code with another student. This
-  includes both sending a file to another student and "over the
-  shoulder" copying (even when, e.g., variable names are changed,
-  etc..). In the eyes of the instructor, these are both equally
-  bad. You should never be sitting and helping another along by
-  writing their code. By doing so you are both violating the honor
-  policy and disadvanting the student you are helping (as they may not
-  then properly learn the material).
 
 ## Student Support
 
