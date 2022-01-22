@@ -22,8 +22,8 @@ placed upon training in algorithmic thinking and programming strategy.
     - See other sources of participation below
   - 5 projects
   - 4 in-person quizzes (80 minutes, on paper) and a final (120 minutes, on paper)
-  - This will be a project-focused. Approximately 3-5 hours per week
-    outside of class is expected. I recommend against taking this
+  - This will be a project-focused course. Approximately 3-5 hours per
+    week outside of class is expected. I recommend against taking this
     course concurrent with other project-heavy courses.
 
 **No Monday Labs**:
@@ -107,8 +107,8 @@ Example:
       <table class="table table-sm table-striped grade-table table-hover">
         <thead>
           <tr class="gradestop">
-            <th class="projdesc" colspan="1" scope="col"><strong>Projects/Exams-High</strong></th>
-            <th class="examdesc" colspan="1" scope="col"><strong>Projects/Exams-Low</strong></th>
+            <th class="projdesc" colspan="1" scope="col"><strong>Projects/Exams (Higher)</strong></th>
+            <th class="examdesc" colspan="1" scope="col"><strong>Projects/Exams (Lower)</strong></th>
             <th scope="col">Grade</th>
           </tr>
         </thead>
@@ -418,8 +418,7 @@ participation in several ways:
 
 #### Collaboration and the Honor Code
 
-- Assignments and exams must be completed alone, without exception.
-
+- Projects and exams must be completed alone, without exception.
 - Specifically, you must never send your code to anyone or allow
   anyone to watch you code, obtain your code, study your code, copy
   your code, etc... We expect you will take reasonable precautious to
@@ -467,127 +466,10 @@ participation in several ways:
   writing their code. By doing so you are both violating the honor
   policy and disadvanting the student you are helping (as they may not
   then properly learn the material).
-
-
-
-
-
-
-
-
-<!-- ## Course Overview -->
-
-<!-- This course will introduce many of the principles of programming -->
-<!-- language design and implementation. We will discuss numerous features -->
-<!-- of several programming languages and the algorithms and data -->
-<!-- structures that are needed to provide these features. Projects will -->
-<!-- cover both the use of various features and high-level understanding -->
-<!-- the algorithms and data structures involved in their -->
-<!-- implementation. -->
-
-<!-- Lectures and labs will include examples (and exercises) in Racket. No -->
-<!-- prior knowledge of Racket is needed for this course, but students -->
-<!-- should be familiar with the programming techniques from their -->
-<!-- lower-level courses and possess fluency in basic functional -->
-<!-- programming. -->
-
-<!-- ## Grading -->
-
-<!-- - Projects: 56% -->
-<!-- - Exams: 44% -->
-<!--   - Midterm: 14% -->
-<!--   - Final: 20% -->
-<!--   - Coding Exam 0: 5% -->
-<!--   - Coding Exam 1: 5% -->
-
-<!-- ## Grade cutoffs -->
-
-<!-- These are rough grade cutoffs. I never fit grade distributions to a -->
-<!-- normal curve (e.g., specifying that only 10% of students may earn an -->
-<!-- A), however I may choose to lower the bar for some letter grades. I -->
-<!-- will not curve assignments or projects. -->
-
-<!-- - 93% -- A -->
-<!-- - 89% -- A- -->
-<!-- - 84% -- B+ -->
-<!-- - 80% -- B -->
-<!-- - 77% -- B- -->
-<!-- - 74% -- C+ -->
-<!-- - 70% -- C -->
-<!-- - 65% -- C- -->
-<!-- - 55% -- D -->
-<!-- - 0%  -- F -->
-
-
-<!-- ## Autograder -->
-
-<!-- Projects in this course will be graded by an automatic grader. We may -->
-<!-- adjust projects so that portions of the projects include style-based -->
-<!-- grading, though we will *not* employ subjective grading. More -->
-<!-- pointedly: we will *not* award partial credit for solutions that have -->
-<!-- the right ideas but do not pass our tests. -->
-
-<!-- ## Late Projects and Extensions -->
-
-<!-- I used to extend project deadlines, but I have found that this is -->
-<!-- often unfair to the students who start on time (and more students than -->
-<!-- I would have thought have raised this point to me -->
-<!-- privately). Therefore, project extensions will be rare--and only in -->
-<!-- the event of things such as university closures. Project extensions -->
-<!-- for students will not be granted except for religious observances and -->
-<!-- extenuating circumstances (family illness, etc..). The late policy is -->
-<!-- as follows: -->
-
-<!-- - Projects turned in on time will earn a maximum of 100% -->
-
-<!-- - Projects turned in up to 72 hours late will have a 15% penalty -->
-<!--   applied. -->
-
-<!-- - Projects turned in after 72 hours late (until the end of the term) -->
-<!--   will have a 30% penalty applied. -->
-
-<!-- - Your project grade always be the maximum possible. For example, -->
-<!--   let's say you make an on-time project submission for 60%, but the -->
-<!--   next day you turn in a project which earns an 75%. This submission -->
-<!--   would earn a 63.75%. Five days after the deadline you turn in a -->
-<!--   project earning 100%. Your final score is 70%, as the 70% (100% with -->
-<!--   a 30% penalty) still got the maximum grade of any submission. -->
-
-<!-- You *should* be able to earn **at least** a 70% on all of the projects -->
-<!-- with enough work. -->
-
-<!-- ## Topics -->
-
-<!-- We will plan to cover all of the following, though some may be dropped -->
-<!-- for time: -->
-
-<!-- - Programming in Racket -->
-<!-- - Higher-order functions -->
-<!-- - Execution models and their impact on the stack -->
-<!-- - Pattern matching -->
-<!-- - Immutable data structures -->
-<!-- - Okasaki-style immutable queues -->
-<!-- - Immutable binary trees -->
-<!-- - Quad-trees -->
-<!-- - Static scope -->
-<!-- - Dynamic scope -->
-<!-- - Lambda calculus -->
-<!-- - Textual-reduction semantics -->
-<!-- - Big-step semantics (CE-style evaluators) -->
-<!-- - Metacircular interpreters -->
-<!-- - Church encoding -->
-<!-- - Control and continuations -->
-<!-- - Abstract machines -->
-<!-- - The CEK machine -->
-<!-- - A-Normal Form -->
-<!-- - Continuation-passing style -->
-<!-- - Top-down parsing -->
-<!-- - State-passing style -->
-<!-- - Simply-typed lambda calculus -->
-<!-- - Type inference -->
-<!-- - Hygienic macros -->
-<!-- - Logic programming -->
-<!-- - MiniKanren -->
+- If a student is found (by the university academic integrity council)
+  to have violated the academic integrity policy, the instructor
+  reserves the right to impose any grade sanction they see fit, up to
+  and including course failure.
 
 ## Student Support
 
