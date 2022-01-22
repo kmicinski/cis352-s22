@@ -109,7 +109,7 @@ Example:
           <tr class="gradestop">
             <th class="projdesc" colspan="1" scope="col"><strong>Projects/Exams (Higher)</strong></th>
             <th class="examdesc" colspan="1" scope="col"><strong>Projects/Exams (Lower)</strong></th>
-            <th scope="col">Grade</th>
+            <th scope="col">Base Grade</th>
           </tr>
         </thead>
         <tbody>
@@ -319,23 +319,24 @@ Example:
                   }
                   if(complete && validcheck){
                       var rowsink = Math.max.apply(null, count)
-                      if(pa>=30) rowsink--;
-                      else if(pa<20) rowsink++;
-                      if(rowsink>9){
-                          result = "F";
-                      }
-                      else if(rowsink<0){
+                      result = "-"
+                      if(rowsink<0){
                           result = "A"
                       }
                       else{
                           result = ["A","A-","B+","B","B-","C+","C","C-","D","F"][rowsink]
                       }
                       if (result) {
-                          document.getElementById("calc_result_0").innerHTML = "Projected grade:";
-                          document.getElementById("calc_result").innerHTML = result;
                           place_highlights(high, low, pa, result)
-
                       }
+                      if(pa>=30) rowsink--;
+                      else if(pa<20) rowsink++;
+                      if(rowsink>9){
+                          result = "F";
+                      }
+                      result_calibrated = ["A","A-","B+","B","B-","C+","C","C-","D","F"][rowsink]
+                      document.getElementById("calc_result_0").innerHTML = "Final grade:";
+                      document.getElementById("calc_result").innerHTML = result_calibrated;
                   }
                   if(!complete && validcheck){
                       document.getElementById("calc_result_0").innerHTML = "Please complete form";
