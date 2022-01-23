@@ -185,7 +185,7 @@ you with a set number of tokens per day.</li>
   <li>There are 12 exam questions, and <em>every</em> quiz/exam is
 cumulative. Each of the twelve questions will cover the same rough
 topics (learning objectives), and you will always get the <em>maximum</em>
-grade throughout the entire course on a project.
+grade throughout the entire course on a given question.
     <ul>
       <li>As an example, if you get 4/5 points on question 1 on quiz 1, and
 5/5 points on question 1 (different question, same topic) on quiz
@@ -238,120 +238,247 @@ points, so gets an A.</li>
           <tr class="gradestop">
             <th class="projdesc" colspan="1" scope="col"><strong>Projects/Exams (Higher)</strong></th>
             <th class="examdesc" colspan="1" scope="col"><strong>Projects/Exams (Lower)</strong></th>
-            <th scope="col">Grade</th>
+            <th scope="col">Base Grade</th>
           </tr>
         </thead>
         <tbody>
           <tr id="gradea">
-            <td class="lggradecol">90</td>
-            <td class="lggradecol">80</td>
-            <th scope="row">A</th>
+            <td class="lggradecol" id="result-A-h">90</td>
+            <td class="lggradecol" id="result-A-l">80</td>
+            <th scope="row" id="result-A">A</th>
           </tr>
           <tr id="gradeam">
-            <td class="lggradecol">87</td>
-            <td class="lggradecol">77</td>
-            <th scope="row">A-</th>
+            <td class="lggradecol" id="result-A--h">87</td>
+            <td class="lggradecol" id="result-A--l">77</td>
+            <th scope="row" id="result-A-">A-</th>
           </tr>
           <tr>
-            <td class="lggradecol">85</td>
-            <td class="lggradecol">75</td>
-            <th scope="row">B+</th>
+            <td class="lggradecol" id="result-B+-h">85</td>
+            <td class="lggradecol" id="result-B+-l">75</td>
+            <th scope="row" id="result-B+">B+</th>
           </tr>
           <tr>
-            <td class="lggradecol">83</td>
-            <td class="lggradecol">73</td>
-            <th scope="row">B</th>
+            <td class="lggradecol" id="result-B-h">83</td>
+            <td class="lggradecol" id="result-B-l">73</td>
+            <th scope="row" id="result-B">B</th>
           </tr>
           <tr>
-            <td class="lggradecol">80</td>
-            <td class="lggradecol">70</td>
-            <th scope="row">B-</th>
+            <td class="lggradecol" id="result-B--h">80</td>
+            <td class="lggradecol" id="result-B--l">70</td>
+            <th scope="row" id="result-B-">B-</th>
           </tr>
           <tr>
-            <td class="lggradecol">77</td>
-            <td class="lggradecol">67</td>
-            <th scope="row">C+</th>
+            <td class="lggradecol" id="result-C+-h">77</td>
+            <td class="lggradecol" id="result-C+-l">67</td>
+            <th scope="row" id="result-C+">C+</th>
           </tr>
           <tr>
-            <td class="lggradecol">74</td>
-            <td class="lggradecol">64</td>
-            <th scope="row">C</th>
+            <td class="lggradecol" id="result-C-h">74</td>
+            <td class="lggradecol" id="result-C-l">64</td>
+            <th scope="row" id="result-C">C</th>
           </tr>
           <tr>
-            <td class="lggradecol">70</td>
-            <td class="lggradecol">60</td>
-            <th scope="row">C-</th>
+            <td class="lggradecol" id="result-C--h">70</td>
+            <td class="lggradecol" id="result-C--l">60</td>
+            <th scope="row" id="result-C-">C-</th>
           </tr>
           <tr>
-            <td class="lggradecol">60</td>
-            <td class="lggradecol">50</td>
-            <th scope="row">D</th>
+            <td class="lggradecol" id="result-D-h">60</td>
+            <td class="lggradecol" id="result-D-l">50</td>
+            <th scope="row" id="result-D">D</th>
           </tr>
           <tr>
-            <td class="lggradecol">&lt; 60</td>
-            <td class="lggradecol">&lt; 50</td>
-            <th scope="row">&lt;D</th>
+            <td class="lggradecol" id="result-F-h">&lt; 60</td>
+            <td class="lggradecol" id="result-F-l">&lt; 50</td>
+            <th scope="row" id="result-F">&lt;D</th>
           </tr>
         </tbody>
       </table>
     </div>
-    <div class="rightside">
-      <!-- <div id="projectquestions"> -->
-      <!--   <h5 class="pcardtitle">Projects</h5> -->
-      <!--   <div id="projects" class="egrade" grade="A"> -->
-      <!--     <svg width="100" height="100" viewPort="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg"> -->
-      <!--       <circle class="pfail" r="40" cx="50" cy="50" fill="transparent" stroke-dashoffset="0"></circle> -->
-      <!--       <circle class="pminimal" r="40" cx="50" cy="50" fill="transparent" stroke-dashoffset="0"></circle> -->
-      <!--       <circle class="psat" r="40" cx="50" cy="50" fill="transparent" stroke-dashoffset="0"></circle> -->
-      <!--       <circle class="pex" r="40" cx="50" cy="50" fill="transparent" stroke-dashoffset="0"></circle> -->
-      <!--     </svg> -->
-      <!--   </div> -->
-      <!--   <p class="points"> -->
-      <!--     3 <strong class="ex">Excellent</strong> -->
-      <!--     &nbsp;5 <strong class="sat">Satisfactory</strong> -->
-      <!--   </p> -->
-      <!--   <p class="points" id="min">6 <strong class="min">Minimal</strong></p> -->
-      <!-- </div> -->
-      <!-- <div> -->
-      <!--   <div id="examquestions"> -->
-      <!--     <h5 class="pcardtitle">Exam Questions</h5> -->
-      <!--     <div id="exams" class="egrade" grade="A"> -->
-      <!--       <svg grade="A" class="gpa" width="100" height="100" viewPort="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg"> -->
-      <!--         <circle class="efail" r="40" cx="50" cy="50" fill="transparent" stroke-dashoffset="0"></circle> -->
-      <!--         <circle class="esat" r="40" cx="50" cy="50" fill="transparent" stroke-dashoffset="0"></circle> -->
-      <!--         <circle class="eex" r="40" cx="50" cy="50" fill="transparent" stroke-dashoffset="0"></circle> -->
-      <!--       </svg> -->
-      <!--     </div> -->
-      <!--     <p class="points"> -->
-      <!--       6 <strong class="ex">Excellent</strong> -->
-      <!--       &nbsp;12 <strong class="sat">Satisfactory</strong> -->
-      <!--     </p> -->
-      <!--   </div> -->
-      <!-- </div> -->
-
-      <table class="table table-sm table-striped grade-table participation">
-        <thead>
-          <tr class="gradestop">
-            <th scope="col"><strong>Participation</strong></th>
-            <th scope="col"><strong>GPA Δ</strong></th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td class="smgradecol">&lt; 20</td>
-            <th scope="row">-</th>
-          </tr>
-          <tr>
-            <td class="smgradecol">&geq; 20 &ndash; &lt; 30</td>
-            <th scope="row">=</th>
-          </tr>
-          <tr>
-            <td class="smgradecol">&geq; 30</td>
-            <th scope="row">+</th>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+<div class="rightside">
+          <table class="table table-sm table-striped grade-table participation">
+            <thead>
+              <tr class="gradestop">
+                <th scope="col"><strong>Participation</strong></th>
+                <th scope="col"><strong>GPA Δ</strong></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="smgradecol" id="part-minus" style="background-color: white;">&lt; 20</td>
+                <th scope="row">-</th>
+              </tr>
+              <tr>
+                <td class="smgradecol" id="part-stay" style="background-color: white;">≥ 20 – &lt; 30</td>
+                <th scope="row">=</th>
+              </tr>
+              <tr>
+                <td class="smgradecol" id="part-plus" style="background-color: white;">≥ 30</td>
+                <th scope="row">+</th>
+              </tr>
+            </tbody>
+          </table>
+          <div class="div_calc">
+            <p style="text-align: center; font-size: 16pt; margin-bottom: 0px;">Grade calculator</p>
+            <form onkeyup="calculate()">
+              <div class="leftside_calc" style="width: 200px;padding-right: 10px;">
+                <label for="Proj">Project:</label>
+                <input type="text" id="proj_score_input" name="exam_exce" size="7" style="float:right" required="" />
+              </div>
+              <div class="rightside_calc" style="width: 200px;padding-right: 10px;">
+                <label for="Exam">Exam:</label>
+                <input type="text" id="exam_score_input" name="exam_sati" size="7" style="float:right" required="" />
+              </div>
+              <div class="rightside_calc" style="width: 200px;padding-right: 10px;">
+                <label for="Part">Participation:</label>
+                <input type="text" id="part_score_input" name="exam_sati" size="7" style="float:right" required="" />
+                <p id="calc_result_0" style="display:inline-block;">Projected grade:</p>
+                <h3 id="calc_result" style="display:inline-block;">-</h3>
+              </div>
+            </form>
+            <style>
+              .table-sm td, .table-sm th {padding:0.4rem;}
+            </style>
+            <script>
+              function place_highlights(high, low, part, result) {
+                  grade_a = [90, 80]
+                  grade_am = [87, 77]
+                  grade_bp = [85, 75]
+                  grade_b = [83, 73]
+                  grade_bm = [80, 70]
+                  grade_cp = [77, 67]
+                  grade_c = [74, 64]
+                  grade_cm = [70, 60]
+                  grade_d = [60, 50]
+                  grade_f = [0, 0]
+                  var calibrate = [grade_a, grade_am, grade_bp, grade_b, grade_bm, grade_cp, grade_c, grade_cm, grade_d, grade_f]
+                  function clear_col(base) {
+                    var element = document.getElementById(base+"-l");
+                    element.style.backgroundColor = 'white';
+                    var element = document.getElementById(base+"-h");
+                    element.style.backgroundColor = 'white';
+                  }
+                  function highlight(ele) {
+                    // console.log("highlight "+ele)
+                      document.getElementById(ele).style.backgroundColor = "#ff7f50";
+                  }
+                  // clear colors                
+                  for (i=0; i < 10; i++) {
+                          grade = ["A","A-","B+","B","B-","C+","C","C-","D","F"][i]
+                          var element = document.getElementById("result-"+grade);
+                          if (element!==null){
+                            element.style.backgroundColor = 'white';
+                          }
+                          clear_col("result-"+grade);
+                  }
+                  // clear participation too
+                  document.getElementById("part-minus").style.backgroundColor = "white";
+                  document.getElementById("part-stay").style.backgroundColor = "white";
+                  document.getElementById('part-plus').style.backgroundColor = "white";
+                  for (i=0; i < 10; i++) {
+                          grade = ["A","A-","B+","B","B-","C+","C","C-","D","F"][i]
+                          var element = document.getElementById("result-"+grade);
+                          if (element!==null){
+                            element.style.backgroundColor = 'white';
+                          }
+                          clear_col("result-"+grade);
+                  }
+                  for (i=0; i < 10; i++) {
+                    if (high>=calibrate[i][0]){
+                      fst = ["A","A-","B+","B","B-","C+","C","C-","D","F"][i]
+                      highlight("result-" + fst + "-h");
+                      break;
+                    }
+                  }
+                  for (i=0; i < 10; i++) {
+                    if (low>=calibrate[i][1]){
+                      snd = ["A","A-","B+","B","B-","C+","C","C-","D","F"][i]
+                      highlight("result-" + snd + "-l");
+                      break;
+                    }
+                  }                  
+                  if (part < 20) {
+                      highlight("part-minus");
+                  } else if (part >= 30) {
+                      highlight("part-plus");
+                  } else {
+                      highlight("part-stay");
+                  }
+                  if (["A", "A-"].includes(result)){
+                    document.getElementById("result-" + result).style.backgroundColor = "#28a745";
+                  }
+                  if (["B", "B-", "B+"].includes(result)){
+                    document.getElementById("result-" + result).style.backgroundColor = "#ffc107";
+                  }
+                  if (["C", "C-", "C+"].includes(result)){
+                    document.getElementById("result-" + result).style.backgroundColor = "#007bff";
+                  }
+                  if (["D", "F"].includes(result)){
+                    document.getElementById("result-" + result).style.backgroundColor = "#dc3545";
+                  }
+              }
+              function calculate() {
+                  var examscore = parseInt(document.getElementById('exam_score_input').value)
+                  var projscore = parseInt(document.getElementById('proj_score_input').value)
+                  var pa = parseInt(document.getElementById('part_score_input').value)
+                  grade_a = [90, 80]
+                  grade_am = [87, 77]
+                  grade_bp = [85, 75]
+                  grade_b = [83, 73]
+                  grade_bm = [80, 70]
+                  grade_cp = [77, 67]
+                  grade_c = [74, 64]
+                  grade_cm = [70, 60]
+                  grade_d = [60, 50]
+                  var calibrate = [grade_a, grade_am, grade_bp, grade_b, grade_bm, grade_cp, grade_c, grade_cm, grade_d]
+                  var count = [0,0]
+                  var validcheck = (examscore >= 0) && (examscore <= 150) && (projscore <= 100) && (projscore >=0) && (pa <= 100) && (pa>=0)
+                  var complete = !isNaN(examscore) && !isNaN(pa) && !isNaN(projscore)
+                  // console.log(complete)
+                  var high = Math.max(examscore, projscore)
+                  var low = Math.min(examscore, projscore)
+                  grade = [high, low]
+                  for(i=0;i<5;i++){
+                      // console.log(i)
+                      for(j=0;j<9;j++){
+                          if(grade[i]<calibrate[j][i]){
+                            count[i]++;
+                          }
+                      }
+                  }
+                  if(complete && validcheck){
+                      var rowsink = Math.max.apply(null, count)
+                      result = "-"
+                      if(rowsink<0){
+                          result = "A"
+                      }
+                      else{
+                          result = ["A","A-","B+","B","B-","C+","C","C-","D","F"][rowsink]
+                      }
+                      if (result) {
+                          place_highlights(high, low, pa, result)
+                      }
+                      if(pa>=30) rowsink--;
+                      else if(pa<20) rowsink++;
+                      if(rowsink>9){
+                          result = "F";
+                      }
+                      result_calibrated = ["A","A-","B+","B","B-","C+","C","C-","D","F"][rowsink]
+                      document.getElementById("calc_result_0").innerHTML = "Final grade:";
+                      document.getElementById("calc_result").innerHTML = result_calibrated;
+                  }
+                  if(!complete && validcheck){
+                      document.getElementById("calc_result_0").innerHTML = "Please complete form";
+                      document.getElementById("calc_result").innerHTML = "";
+                  }
+                  if(complete && !validcheck){
+                      document.getElementById("calc_result_0").innerHTML = "Invalid scores";
+                      document.getElementById("calc_result").innerHTML = "";
+                  }
+              }
+            </script>
+          </div>
+        </div>
   </div>
 </div>
 

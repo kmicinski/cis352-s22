@@ -14,6 +14,14 @@ languages, focused on operational semantics and interpreters. This
 course is heavily project-focused, and a specific emphasis will be
 placed upon training in algorithmic thinking and programming strategy.
 
+<b>Instructors:</b>
+- Kris Micinski, Asst. Prof at Syracuse ECS
+  - Office hours: TBA
+- Davis Silverman (TA), PhD student at Syracuse ECS
+  - Office hours: TBA
+- Chang Liu (TA), MS student at Syracuse ECS
+  - Office hours: TBA
+
 **Workload**:
   - Asynchronous video lecture units (at most ~80min per week)
     - We assume you have watched the videos before class
@@ -456,15 +464,18 @@ participation in several ways:
 - Cite all help other than the professor, T.A., and
   required/recommended text (you are allowed to cite those if you
   wish, but it is not required unless you are specifically told
-  otherwise); note that proper citation is sufficient to avoid any
-  charge of academic dishonesty, and we will not be particularly
-  focused on copyright law during lab work.
-**Again**: You should **never** share code with another student. This
-  includes both sending a file to another student and "over the
-  shoulder" copying (even when, e.g., variable names are changed,
-  etc..). In the eyes of the instructor, these are both equally
-  bad. You should never be sitting and helping another along by
-  writing their code. By doing so you are both violating the honor
+  otherwise). Proper citation is not sufficient to avoid any charge of
+  academic dishonesty (e.g., citing another student's work from a
+  previous semester), but we will not be particularly focused on
+  copyright law and it is permissible to use small snippets of code
+  from Stack Overflow (or related sources such as books and notes)
+  that do not tangibly complete the substance of the project for you.
+  **Again**: You should **never** share code with another
+  student. This includes both sending a file to another student and
+  "over the shoulder" copying (even when, e.g., variable names are
+  changed, etc..). In the eyes of the instructor, these are both
+  equally bad. You should never be sitting and helping another along
+  by writing their code. By doing so you are both violating the honor
   policy and disadvanting the student you are helping (as they may not
   then properly learn the material).
 - If a student is found (by the university academic integrity council)
