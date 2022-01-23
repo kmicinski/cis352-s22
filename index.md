@@ -101,19 +101,19 @@ layout: mainpage
       <th scope="row">1/25</th>
       <td>Logistics</td>
       <td></td>
-      <td><a href="https://www.youtube.com/watch?v=CrCRTFvJWoQ">Course Introduction and Logistics</a></td>
+      <td><a>Course Introduction and Logistics (video to be released later)</a></td>
     </tr>
     <tr class="table-primary">
       <th scope="row">1/25</th>
       <td>Lecture</td>
       <td>L0</td>
-      <td><a href="https://www.youtube.com/watch?v=j63O7A-ZKHk">Introduction to Racket and Dr. Racket</a></td>
+      <td><a>Introduction to Racket and Dr. Racket (video to be released later)</a></td>
     </tr>
     <tr class="table-primary">
       <th scope="row">1/27</th>
       <td>Lecture</td>
       <td>L1</td>
-      <td><a href="https://www.youtube.com/watch?v=kMOgrVjEuk8">Racket Forms and Callsites</a></td>
+      <td><a>Racket Forms and Callsites (video to be released later)</a></td>
     </tr>
     <tr class="table-primary">
       <th scope="row">1/27</th>

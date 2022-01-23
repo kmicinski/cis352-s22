@@ -5,7 +5,8 @@ layout: page
 
 The following represents the currently anticipated (and most
 ambitious) schedule. The schedule will be updated as the course
-evolves to reflect the actual pacing.
+evolves to reflect the actual pacing.  
+Please follow the week number and watch videos accordingly.
 
 - **Week 0**
 - *Lecture 0* - Course Intro
