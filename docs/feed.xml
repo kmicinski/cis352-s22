@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CIS352</title>
-    <description>CMSC352--Principles of Programming Languages (Spring '22) at Syracuse</description>
+    <description>CMSC352--Principles of Programming Languages (Spring &apos;22) at Syracuse</description>
     <link>https://kmicinski.com/cis352-s22/</link>
     <atom:link href="https://kmicinski.com/cis352-s22/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 22 Jan 2022 20:40:41 -0600</pubDate>
-    <lastBuildDate>Sat, 22 Jan 2022 20:40:41 -0600</lastBuildDate>
-    <generator>Jekyll v4.2.0</generator>
+    <pubDate>Mon, 24 Jan 2022 17:52:24 -0500</pubDate>
+    <lastBuildDate>Mon, 24 Jan 2022 17:52:24 -0500</lastBuildDate>
+    <generator>Jekyll v4.2.1</generator>
     
       <item>
         <title>Assignment 0: Introduction to Racket</title>
@@ -15,7 +15,7 @@
 
 &lt;p&gt;Available on http://autograder.org. Use your credentials to login.&lt;/p&gt;
 </description>
-        <pubDate>Thu, 16 Jan 2020 00:00:00 -0600</pubDate>
+        <pubDate>Thu, 16 Jan 2020 00:00:00 -0500</pubDate>
         <link>https://kmicinski.com/cis352-s22/projects/0</link>
         <guid isPermaLink="true">https://kmicinski.com/cis352-s22/projects/0</guid>
         
