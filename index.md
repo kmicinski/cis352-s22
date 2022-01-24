@@ -101,7 +101,7 @@ layout: mainpage
       <th scope="row">1/25</th>
       <td>Logistics</td>
       <td></td>
-      <td><a>Course Introduction and Logistics (video to be released later)</a></td>
+      <td><a href="https://www.youtube.com/watch?v=2jrwXpUZW7k">Course Introduction and Logistics </a></td>
     </tr>
     <tr class="table-primary">
       <th scope="row">1/25</th>
