@@ -109,7 +109,7 @@ Example:
   BlackBoard. Janice would get an A-, but also has 31 participation
   points, so gets an A.
 
-<div class="container">
+<div class="container" id="grade-calculator">
   <div class="row">
     <div class="leftside">
       <table class="table table-sm table-striped grade-table table-hover">
@@ -211,7 +211,7 @@ Example:
               <div class="rightside_calc" style="width: 200px;padding-right: 10px;">
                 <label for="Part">Participation:</label>
                 <input type="text" id="part_score_input" name="exam_sati" size="7" style="float:right" required="">
-                <p id="calc_result_0" style="display:inline-block;">Projected grade:</p>
+                <p id="calc_result_0" style="display:inline-block;">Final grade:</p>
                 <h3 id="calc_result" style="display:inline-block;">-</h3>
               </div>
             </form>
