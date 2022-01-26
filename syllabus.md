@@ -1,7 +1,7 @@
 ---
 title: Syllabus
 layout: default
----
+--- 
 
 ## Programming Languages: Theory and Practice
 (*CIS 352* at Syracuse U)
@@ -25,7 +25,7 @@ placed upon training in algorithmic thinking and programming strategy.
 **Workload**:
   - Asynchronous video lecture units (at most ~80min per week)
     - We assume you have watched the videos before class
-    - Class slides are available <a href="/assets/slides/class_slides.pdf" target="_blank">at this link</a>.
+    - Class slides are available <a href="{{ site.url }}/{{ site.baseurl }}/assets/slides/class_slides_s22.pdf" target="_blank">at this link</a>.
   - Participation points:
     - Quiz before each lecture (closes as lecture begins)
     - See other sources of participation below
