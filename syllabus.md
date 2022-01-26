@@ -369,7 +369,7 @@ There are *five programming projects* in the Racket programming
 language. Projects will generally have deadlines of roughly 12
 calendar days from their assignment (though this may be adjusted at
 times). Projects will be graded using an *autograder* whose URL is
-[https://autograder.org](https://autograder.org). You will receive
+[https://autograde.org](https://autograde.org). You will receive
 credentials for the autograder--if you have not received these by the
 first day of class, let Chang (TA) know. You are expected to learn how
 to use the Git interface to the autograder--the autograder will
