@@ -17,7 +17,7 @@ placed upon training in algorithmic thinking and programming strategy.
 <b>Instructors:</b>
 - Kris Micinski, Asst. Prof at Syracuse ECS
   - Office hours: TBA
-- Davis Silverman (TA), PhD student at Syracuse ECS
+- Davis Silverman (TA), PhD candidate at Syracuse ECS
   - Office hours: TBA
 - Chang Liu (TA), MS student at Syracuse ECS
   - Office hours: TBA
@@ -25,6 +25,7 @@ placed upon training in algorithmic thinking and programming strategy.
 **Workload**:
   - Asynchronous video lecture units (at most ~80min per week)
     - We assume you have watched the videos before class
+    - Class slides are available <a href="/assets/slides/class_slides.pdf" target="_blank">at this link</a>.
   - Participation points:
     - Quiz before each lecture (closes as lecture begins)
     - See other sources of participation below
