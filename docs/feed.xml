@@ -5,15 +5,15 @@
     <description>CMSC352--Principles of Programming Languages (Spring &apos;22) at Syracuse</description>
     <link>https://kmicinski.com/cis352-s22/</link>
     <atom:link href="https://kmicinski.com/cis352-s22/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 24 Jan 2022 21:52:59 -0500</pubDate>
-    <lastBuildDate>Mon, 24 Jan 2022 21:52:59 -0500</lastBuildDate>
+    <pubDate>Wed, 26 Jan 2022 17:14:37 -0500</pubDate>
+    <lastBuildDate>Wed, 26 Jan 2022 17:14:37 -0500</lastBuildDate>
     <generator>Jekyll v4.2.1</generator>
     
       <item>
         <title>Assignment 0: Introduction to Racket</title>
         <description>&lt;p&gt;&lt;strong&gt;Due&lt;/strong&gt;: Monday, January 20th, 11:59PM.&lt;/p&gt;
 
-&lt;p&gt;Available on http://autograder.org. Use your credentials to login.&lt;/p&gt;
+&lt;p&gt;Available on http://autograde.org. Use your credentials to login.&lt;/p&gt;
 </description>
         <pubDate>Thu, 16 Jan 2020 00:00:00 -0500</pubDate>
         <link>https://kmicinski.com/cis352-s22/projects/0</link>
