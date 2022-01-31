@@ -16,11 +16,11 @@ placed upon training in algorithmic thinking and programming strategy.
 
 <b>Instructors:</b>
 - Kris Micinski, Asst. Prof at Syracuse ECS
-  - Office hours: TBA
+  - Office hours: Friday 10:30-11:30 and by appointment rest of the week.
 - Davis Silverman (TA), PhD candidate at Syracuse ECS
-  - Office hours: TBA
+  - Office hours: Wednesday, Thursday.
 - Chang Liu (TA), MS student at Syracuse ECS
-  - Office hours: TBA
+  - Office hours: Monday 10:00 - 12:00 [Zoom link](https://syracuseuniversity.zoom.us/j/2726743933)
 
 **Workload**:
   - Asynchronous video lecture units (at most ~80min per week)
