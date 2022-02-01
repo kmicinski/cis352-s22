@@ -150,7 +150,7 @@ layout: mainpage
       <th scope="row">2/3</th>
       <td>Logistics</td>
       <td></td>
-      <td>Using the Autograder</td>
+      <td><a href="https://www.youtube.com/watch?v=dqQsih37Mc8">Using the Autograder</a></td>
     </tr>
     <tr class="table-warning">
       <th scope="row">2/3</th>
