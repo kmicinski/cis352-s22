@@ -143,8 +143,7 @@ layout: mainpage
       <th scope="row">2/3</th>
       <td>Lecture</td>
       <td>L5</td>
-      <!-- <td><a href="https://www.youtube.com/watch?v=0y325A82vMc&list=PLXaqTeMx01E-l20YhTNwN4xncM-1jweqG&index=7">Recursion over Lists</a></td> -->
-      <td><a>Recursion over Lists</a></td>
+      <td><a href="https://www.youtube.com/watch?v=0y325A82vMc&list=PLXaqTeMx01E_eK1ZEpKvKL5KwSaj7cJW9&index=7">Recursion over Lists</a></td>
     </tr>
     <tr class="table-success">
       <th scope="row">2/3</th>
