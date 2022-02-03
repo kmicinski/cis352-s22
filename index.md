@@ -155,7 +155,7 @@ layout: mainpage
       <th scope="row">2/3</th>
       <td>Project</td>
       <td>P1</td>
-      <td>Tic-Tac-Toe</td>
+      <td><a href="https://www.youtube.com/watch?v=ApIXt_Exf7g&list=PLXaqTeMx01E_eK1ZEpKvKL5KwSaj7cJW9&index=8">Tic-Tac-Toe</a></td>
     </tr>
     <tr class="table-secondary">
       <th scope="row">2/1 &ndash;</th>
@@ -167,22 +167,19 @@ layout: mainpage
       <th scope="row">2/8</th>
       <td>Lecture</td>
       <td>L6</td>
-      <!-- <td><a href="https://www.youtube.com/watch?v=OqZleNZto0A&list=PLXaqTeMx01E-l20YhTNwN4xncM-1jweqG&index=8">Lambdas</a></td> -->
-      <td><a>Lambdas</a></td>
+      <td><a href="https://www.youtube.com/watch?v=OqZleNZto0A&list=PLXaqTeMx01E_eK1ZEpKvKL5KwSaj7cJW9&index=9">Lambdas</a></td>
     </tr>
     <tr class="table-primary">
       <th scope="row">2/10</th>
       <td>Lecture</td>
       <td>L7</td>
-      <!-- <td><a href="https://www.youtube.com/watch?v=7NA9HZdlR0g&list=PLXaqTeMx01E-l20YhTNwN4xncM-1jweqG&index=9">Cons Diagrams and Boxes</a></td> -->
-      <td><a>Cons Diagrams and Boxes</a></td>
+      <td><a href="https://www.youtube.com/watch?v=7NA9HZdlR0g&list=PLXaqTeMx01E_eK1ZEpKvKL5KwSaj7cJW9&index=10">Cons Diagrams and Boxes</a></td>
     </tr>
     <tr class="table-primary">
       <th scope="row">2/10</th>
       <td>Lecture</td>
       <td>L8</td>
-      <!-- <td><a href="https://www.youtube.com/watch?v=AGDnCUfFp84&list=PLXaqTeMx01E-l20YhTNwN4xncM-1jweqG&index=10">Mapping Over Lists</a></td> -->
-      <td><a>Mapping Over Lists</a></td>
+      <td><a href="https://www.youtube.com/watch?v=AGDnCUfFp84&list=PLXaqTeMx01E_eK1ZEpKvKL5KwSaj7cJW9&index=11">Mapping Over Lists</a></td>
     </tr>
     <tr class="table-secondary">
       <th scope="row">2/8 &ndash;</th>
