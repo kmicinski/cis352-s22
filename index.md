@@ -192,14 +192,14 @@ layout: mainpage
       <td>Lecture</td>
       <td>L9</td>
       <!-- <td><a href="https://www.youtube.com/watch?v=RJFkmh9Wo8o">Pattern Matching</a></td> -->
-      <td><a>Pattern Matching</a></td>
+      <td><a href="https://www.youtube.com/watch?v=RJFkmh9Wo8o&list=PLXaqTeMx01E_eK1ZEpKvKL5KwSaj7cJW9&index=12">Quasiquoting and Pattern Matching</a></td>
     </tr>
     <tr class="table-primary">
       <th scope="row">2/17</th>
       <td>Lecture</td>
       <td>L10</td>
       <!-- <td><a href="https://www.youtube.com/watch?v=kAskgLplQgw">Tail Calls and Tail Recursion</a></td> -->
-      <td><a>Tail Calls and Tail Recursion</a></td>
+      <td><a href="https://www.youtube.com/watch?v=kAskgLplQgw&list=PLXaqTeMx01E_eK1ZEpKvKL5KwSaj7cJW9&index=13">Tail Calls and Tail Recursion</a></td>
     </tr>
     <tr class="table-secondary">
       <th scope="row">2/15 &ndash;</th>
