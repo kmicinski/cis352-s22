@@ -1,113 +1,19 @@
-<!DOCTYPE html>
-<html>
 
-  <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+---
+layout: mainpage
+---
 
-  <title>CIS352</title>
-  <meta name="description" content="CMSC352--Principles of Programming Languages (Spring '22) at Syracuse">
-
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="/">
-  <link rel="alternate" type="application/rss+xml" title="CIS352" href="/feed.xml">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-</head>
-
-
-  <body>
-
-    <header class="site-header">
-
-  <div class="wrapper">
-
-    <a class="site-title" href=/>CIS352</a>
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href=/#schedule>Schedule</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href=/learning-objectives>Objectives</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href=/syllabus>Syllabus</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://autograde.org">Autograde</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
-
-    <!-- <nav class="site-nav"> -->
-    <!--   <a href="#" class="menu-icon"> -->
-    <!--     <svg viewBox="0 0 18 15"> -->
-    <!--       <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/> -->
-    <!--       <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/> -->
-    <!--       <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/> -->
-    <!--     </svg> -->
-    <!--   </a> -->
-
-    <!--   <div class="trigger"> -->
-    <!--      -->
-    <!--        -->
-    <!--      -->
-    <!--        -->
-    <!--      -->
-    <!--        -->
-    <!--      -->
-    <!--        -->
-    <!--      -->
-    <!--        -->
-    <!--       <a class="page-link" href="/schedule/">Schedule</a> -->
-    <!--        -->
-    <!--      -->
-    <!--        -->
-    <!--       <a class="page-link" href="/syllabus/">Syllabus</a> -->
-    <!--        -->
-    <!--      -->
-    <!--   </div> -->
-    <!-- </nav> -->
-
-  </div>
-</header>
-
-
-    <div class="masthead">
-      <div class="bs-docs-masthead" >
-        <div class="bs-docs-header">
-          <div class="container">
-            <div class="wrapper">
-              <div class="introtext">
-                <h1 class="compsecurity">CIS352 &mdash; Spring 2022</h1>
-                <h2 class="compsecurity">Principles of Programming Languages</h2>
-                <!--<h2 id="practice""><span class="blackhat">Theory</span> and Practice</h2>-->
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-      
-    <div class="page-content">
-      <div class="wrapper">
-        <!-- ## Upcoming deadlines -->
+<!-- ## Upcoming deadlines -->
 
 <!-- <ul class="due-list"> -->
-<!--  -->
-<!--      -->
-<!--      -->
-<!--      -->
-<!--  -->
+<!-- {% for post in site.posts %} -->
+<!--     {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %} -->
+<!--     {% capture duetime %}{{post.due | date: '%s'}}{% endcapture %} -->
+<!--     {% if post.categories contains 'assignment' and duetime > nowunix %} -->
+<!--     <li> -->
+<!--        <span><span class="post-meta"><b>(Due <span itemprop="date">{{ post.due | date: "%b %-d, %Y" }}</span>)</b></span><a class="mainpage-asn-link" href="{{ post.url | absolute_url }}">{{ post.title }}</a></span></li> -->
+<!--    {% endif %} -->
+<!-- {% endfor %} -->
 <!-- </ul> -->
 
 <!-- <div class="container"> -->
@@ -154,6 +60,7 @@
 <!-- </table> -->
 <!-- <\!-- <img class="krispic" src="/assets/img/krisbw.jpg"> -\-> -->
 <!-- </div> -->
+    
 
 <!-- ## Introduction  -->
 
@@ -179,7 +86,7 @@
 
 <!-- ## Course Structure -->
 
-<!-- Please read the [Syllabus](/syllabus) for course information. -->
+<!-- Please read the [Syllabus]({{ "/syllabus" | absolute_url }}) for course information. -->
 
 <table class="table table-sm table-striped">
   <thead>
@@ -201,7 +108,7 @@
       <th scope="row">1/25</th>
       <td>Lecture</td>
       <td>L0</td>
-      <td><a href="https://www.youtube.com/watch?v=zFzNhjFv22A&amp;list=PLXaqTeMx01E_eK1ZEpKvKL5KwSaj7cJW9&amp;index=3">Introduction to Racket and Dr. Racket</a></td>
+      <td><a href="https://www.youtube.com/watch?v=zFzNhjFv22A&list=PLXaqTeMx01E_eK1ZEpKvKL5KwSaj7cJW9&index=3">Introduction to Racket and Dr. Racket</a></td>
     </tr>
     <tr class="table-primary">
       <th scope="row">1/27</th>
@@ -225,19 +132,19 @@
       <th scope="row">2/1</th>
       <td>Lecture</td>
       <td>L3</td>
-      <td><a href="https://www.youtube.com/watch?v=4HPjJ4M6XVc&amp;list=PLXaqTeMx01E_eK1ZEpKvKL5KwSaj7cJW9&amp;index=5&amp;ab_channel=KristopherMicinski">Textual Reduction</a></td>
+      <td><a href="https://www.youtube.com/watch?v=4HPjJ4M6XVc&list=PLXaqTeMx01E_eK1ZEpKvKL5KwSaj7cJW9&index=5&ab_channel=KristopherMicinski">Textual Reduction</a></td>
     </tr>
     <tr class="table-primary">
       <th scope="row">2/3</th>
       <td>Lecture</td>
       <td>L4</td>
-      <td><a href="https://www.youtube.com/watch?v=WVmomIoxBZM&amp;list=PLXaqTeMx01E_eK1ZEpKvKL5KwSaj7cJW9&amp;index=6&amp;ab_channel=KristopherMicinski">Case Splitting and Lists Intro</a></td>
+      <td><a href="https://www.youtube.com/watch?v=WVmomIoxBZM&list=PLXaqTeMx01E_eK1ZEpKvKL5KwSaj7cJW9&index=6&ab_channel=KristopherMicinski">Case Splitting and Lists Intro</a></td>
     </tr>
     <tr class="table-primary">
       <th scope="row">2/3</th>
       <td>Lecture</td>
       <td>L5</td>
-      <td><a href="https://www.youtube.com/watch?v=0y325A82vMc&amp;list=PLXaqTeMx01E_eK1ZEpKvKL5KwSaj7cJW9&amp;index=7">Recursion over Lists</a></td>
+      <td><a href="https://www.youtube.com/watch?v=0y325A82vMc&list=PLXaqTeMx01E_eK1ZEpKvKL5KwSaj7cJW9&index=7">Recursion over Lists</a></td>
     </tr>
     <tr class="table-success">
       <th scope="row">2/3</th>
@@ -249,7 +156,7 @@
       <th scope="row">2/3</th>
       <td>Project</td>
       <td>P1</td>
-      <td><a href="https://www.youtube.com/watch?v=ApIXt_Exf7g&amp;list=PLXaqTeMx01E_eK1ZEpKvKL5KwSaj7cJW9&amp;index=8">Tic-Tac-Toe</a></td>
+      <td><a href="https://www.youtube.com/watch?v=ApIXt_Exf7g&list=PLXaqTeMx01E_eK1ZEpKvKL5KwSaj7cJW9&index=8">Tic-Tac-Toe</a></td>
     </tr>
     <tr class="table-secondary">
       <th scope="row">2/1 &ndash;</th>
@@ -261,19 +168,19 @@
       <th scope="row">2/8</th>
       <td>Lecture</td>
       <td>L6</td>
-      <td><a href="https://www.youtube.com/watch?v=OqZleNZto0A&amp;list=PLXaqTeMx01E_eK1ZEpKvKL5KwSaj7cJW9&amp;index=9">Lambdas</a></td>
+      <td><a href="https://www.youtube.com/watch?v=OqZleNZto0A&list=PLXaqTeMx01E_eK1ZEpKvKL5KwSaj7cJW9&index=9">Lambdas</a></td>
     </tr>
     <tr class="table-primary">
       <th scope="row">2/10</th>
       <td>Lecture</td>
       <td>L7</td>
-      <td><a href="https://www.youtube.com/watch?v=7NA9HZdlR0g&amp;list=PLXaqTeMx01E_eK1ZEpKvKL5KwSaj7cJW9&amp;index=10">Cons Diagrams and Boxes</a></td>
+      <td><a href="https://www.youtube.com/watch?v=7NA9HZdlR0g&list=PLXaqTeMx01E_eK1ZEpKvKL5KwSaj7cJW9&index=10">Cons Diagrams and Boxes</a></td>
     </tr>
     <tr class="table-primary">
       <th scope="row">2/10</th>
       <td>Lecture</td>
       <td>L8</td>
-      <td><a href="https://www.youtube.com/watch?v=AGDnCUfFp84&amp;list=PLXaqTeMx01E_eK1ZEpKvKL5KwSaj7cJW9&amp;index=11">Mapping Over Lists</a></td>
+      <td><a href="https://www.youtube.com/watch?v=AGDnCUfFp84&list=PLXaqTeMx01E_eK1ZEpKvKL5KwSaj7cJW9&index=11">Mapping Over Lists</a></td>
     </tr>
     <tr class="table-secondary">
       <th scope="row">2/8 &ndash;</th>
@@ -286,14 +193,14 @@
       <td>Lecture</td>
       <td>L9</td>
       <!-- <td><a href="https://www.youtube.com/watch?v=RJFkmh9Wo8o">Pattern Matching</a></td> -->
-      <td><a href="https://www.youtube.com/watch?v=RJFkmh9Wo8o&amp;list=PLXaqTeMx01E_eK1ZEpKvKL5KwSaj7cJW9&amp;index=12">Quasiquoting and Pattern Matching</a></td>
+      <td><a href="https://www.youtube.com/watch?v=RJFkmh9Wo8o&list=PLXaqTeMx01E_eK1ZEpKvKL5KwSaj7cJW9&index=12">Quasiquoting and Pattern Matching</a></td>
     </tr>
     <tr class="table-primary">
       <th scope="row">2/15</th>
       <td>Lecture</td>
       <td>L10</td>
       <!-- <td><a href="https://www.youtube.com/watch?v=kAskgLplQgw">Tail Calls and Tail Recursion</a></td> -->
-      <td><a href="https://www.youtube.com/watch?v=kAskgLplQgw&amp;list=PLXaqTeMx01E_eK1ZEpKvKL5KwSaj7cJW9&amp;index=13">Tail Calls and Tail Recursion</a></td>
+      <td><a href="https://www.youtube.com/watch?v=kAskgLplQgw&list=PLXaqTeMx01E_eK1ZEpKvKL5KwSaj7cJW9&index=13">Tail Calls and Tail Recursion</a></td>
     </tr>
     <tr class="table-danger">
       <th scope="row">2/17</th>
@@ -311,50 +218,49 @@
       <th scope="row">2/22</th>
       <td>Lecture</td>
       <td>L11</td>
-      <td><a href="https://www.youtube.com/watch?v=cFkHFoKW4e4&amp;list=PLXaqTeMx01E-l20YhTNwN4xncM-1jweqG&amp;index=14">Practicing Tail Recursion</a></td>
+      <td><a href="https://www.youtube.com/watch?v=cFkHFoKW4e4&list=PLXaqTeMx01E-l20YhTNwN4xncM-1jweqG&index=14">Practicing Tail Recursion</a></td>
     </tr>
     <tr class="table-primary">
       <th scope="row">2/22</th>
       <td>Lecture</td>
       <td>L12</td>
-      <td><a href="https://www.youtube.com/watch?v=WUAI_v110NQ&amp;list=PLXaqTeMx01E-l20YhTNwN4xncM-1jweqG&amp;index=15">Folding over Lists</a></td>
+      <td><a href="https://www.youtube.com/watch?v=WUAI_v110NQ&list=PLXaqTeMx01E-l20YhTNwN4xncM-1jweqG&index=15">Folding over Lists</a></td>
     </tr>
     <tr class="table-warning">
       <th scope="row">2/26</th>
       <td>Project</td>
       <td>P2</td>
-      <td><a href="https://www.youtube.com/watch?v=wWpu6UDYhc4&amp;list=PLXaqTeMx01E-l20YhTNwN4xncM-1jweqG&amp;index=19">PageRank</a></td>
+      <td><a href="https://www.youtube.com/watch?v=wWpu6UDYhc4&list=PLXaqTeMx01E-l20YhTNwN4xncM-1jweqG&index=19">PageRank</a></td>
     </tr>
     <tr class="table-primary">
       <th scope="row">3/1</th>
       <td>Lecture</td>
       <td>L13</td>
-      <td><a href="https://www.youtube.com/watch?v=vhOH2GmuYrQ&amp;list=PLXaqTeMx01E-l20YhTNwN4xncM-1jweqG&amp;index=16">Interpreting IfArith</a></td>
+      <td><a href="https://www.youtube.com/watch?v=vhOH2GmuYrQ&list=PLXaqTeMx01E-l20YhTNwN4xncM-1jweqG&index=16">Interpreting IfArith</a></td>
     </tr>
     <tr class="table-primary">
       <th scope="row">3/1</th>
       <td>Lecture</td>
       <td>L14</td>
-      <td><a href="https://www.youtube.com/watch?v=neCrsTf8h7Y&amp;list=PLXaqTeMx01E-l20YhTNwN4xncM-1jweqG&amp;index=17">Natural Deduction for IfArith</a></td>
+      <td><a href="https://www.youtube.com/watch?v=neCrsTf8h7Y&list=PLXaqTeMx01E-l20YhTNwN4xncM-1jweqG&index=17">Natural Deduction for IfArith</a></td>
     </tr>
     <tr class="table-primary">
       <th scope="row">3/3</th>
       <td>Lecture</td>
       <td>L15</td>
-	  <td><a href="https://www.youtube.com/watch?v=Qq5Bzpsoi7k&amp;list=PLXaqTeMx01E-l20YhTNwN4xncM-1jweqG&amp;index=18">Small-Step Semantics of IfArith</a></td>
+	  <td><a href="https://www.youtube.com/watch?v=Qq5Bzpsoi7k&list=PLXaqTeMx01E-l20YhTNwN4xncM-1jweqG&index=18">Small-Step Semantics of IfArith</a></td>
     </tr>
     <tr class="table-primary">
       <th scope="row">3/8</th>
       <td>Lecture</td>
       <td>L16</td>
-      <td><a href="https://www.youtube.com/watch?v=RqA-m_QMJYc&amp;list=PLXaqTeMx01E-l20YhTNwN4xncM-1jweqG&amp;index=20">Lambda Calculus Introduction</a></td>
+      <td><a href="https://www.youtube.com/watch?v=RqA-m_QMJYc&list=PLXaqTeMx01E-l20YhTNwN4xncM-1jweqG&index=20">Lambda Calculus Introduction</a></td>
     </tr>
     <tr class="table-primary">
       <th scope="row">3/8</th>
       <td>Lecture</td>
       <td>L17</td>
-      <!-- <td><a href="https://www.youtube.com/watch?v=Paxvaq0Q-S0&list=PLXaqTeMx01E-l20YhTNwN4xncM-1jweqG&index=21">Lambda Calculus: Reductions and Substitution</a></td> -->
-      <td><a>Lambda Calculus: Reductions and Substitution</a></td>
+	  <td><a href="https://www.youtube.com/watch?v=Paxvaq0Q-S0&list=PLXaqTeMx01E-l20YhTNwN4xncM-1jweqG&index=21">Lambda Calculus: Reductions and Substitution</a></td>
     </tr>
     <tr class="table-danger">
       <th scope="row">3/10</th>
@@ -478,66 +384,3 @@
   </tbody>
 </table>
 
-
-      </div>
-    </div>
-
-    <footer class="site-footer">
-
-  <div class="wrapper">
-
-    <!-- <h2 class="footer-heading">CIS352</h2> -->
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>CIS352</li>
-          <li><a href="mailto:"></a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          
-
-          
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>CMSC352--Principles of Programming Languages (Spring '22) at Syracuse</p>
-      </div>
-    </div>
-
-  </div>
-
-</footer>
-
-<script src=/bower_components/jquery/dist/jquery.min.js></script>
-<script src=/bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js></script>
-
-    <script>
-      $(document).ready(function() {
-      var areadescs = [$("#secdesc"),$("#pldesc"),$("#hcidesc")];
-      var areas = $("#areadesc");
-      $("areastr").css("min-height",
-                 (Math.min.apply(null, areadescs.map(function(f) { return f.height(); }))));
-      [$("#circle1"),$("#circle2"),$("#circle3")]
-        .forEach(function(f,i) {
-            f.mouseenter(function() {
-            f.css({"fill-opacity": .7});
-            areas.css({"display": "none"});
-            areadescs[i].css({"display": "table-cell"});
-          });
-          f.mouseleave(function() {
-            areadescs[i].css({"display": "none"});
-            areas.css({"display": "table-cell"});
-            f.css({"fill-opacity": .4});
-          });
-        });
-      });
-    </script>
-
-  </body>
-
-</html>
