@@ -1,3 +1,4 @@
+
 ---
 layout: mainpage
 ---
@@ -195,11 +196,17 @@ layout: mainpage
       <td><a href="https://www.youtube.com/watch?v=RJFkmh9Wo8o&list=PLXaqTeMx01E_eK1ZEpKvKL5KwSaj7cJW9&index=12">Quasiquoting and Pattern Matching</a></td>
     </tr>
     <tr class="table-primary">
-      <th scope="row">2/17</th>
+      <th scope="row">2/15</th>
       <td>Lecture</td>
       <td>L10</td>
       <!-- <td><a href="https://www.youtube.com/watch?v=kAskgLplQgw">Tail Calls and Tail Recursion</a></td> -->
       <td><a href="https://www.youtube.com/watch?v=kAskgLplQgw&list=PLXaqTeMx01E_eK1ZEpKvKL5KwSaj7cJW9&index=13">Tail Calls and Tail Recursion</a></td>
+    </tr>
+    <tr class="table-danger">
+      <th scope="row">2/17</th>
+      <td>Quiz</td>
+      <td>Q1</td>
+      <td><strong>In-Person Quiz 1</strong></td>
     </tr>
     <tr class="table-secondary">
       <th scope="row">2/15 &ndash;</th>
@@ -207,67 +214,59 @@ layout: mainpage
       <td>R3</td>
       <td>SICP sections <a href="https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-15.html">2.2</a> and <a href="https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-16.html#%_sec_2.3">2.3</a></td>
     </tr>
-    <tr class="table-danger">
-      <th scope="row">2/22</th>
-      <td>Quiz</td>
-      <td>Q0</td>
-      <td>Online Synchronous Quiz 0 (80min)</td>
-    </tr>
     <tr class="table-primary">
-      <th scope="row">2/24</th>
+      <th scope="row">2/22</th>
       <td>Lecture</td>
       <td>L11</td>
-      <!-- <td><a href="https://www.youtube.com/watch?v=cFkHFoKW4e4&list=PLXaqTeMx01E-l20YhTNwN4xncM-1jweqG&index=14">Practicing Tail Recursion</a></td> -->
-      <td><a>Practicing Tail Recursion</a></td>
+      <td><a href="https://www.youtube.com/watch?v=cFkHFoKW4e4&list=PLXaqTeMx01E-l20YhTNwN4xncM-1jweqG&index=14">Practicing Tail Recursion</a></td>
     </tr>
     <tr class="table-primary">
-      <th scope="row">2/24</th>
+      <th scope="row">2/22</th>
       <td>Lecture</td>
       <td>L12</td>
-      <!-- <td><a href="https://www.youtube.com/watch?v=WUAI_v110NQ&list=PLXaqTeMx01E-l20YhTNwN4xncM-1jweqG&index=15">Folding over Lists</a></td> -->
-      <td><a>Folding over Lists</a></td>
+      <td><a href="https://www.youtube.com/watch?v=WUAI_v110NQ&list=PLXaqTeMx01E-l20YhTNwN4xncM-1jweqG&index=15">Folding over Lists</a></td>
     </tr>
     <tr class="table-warning">
       <th scope="row">2/26</th>
       <td>Project</td>
       <td>P2</td>
-      <!-- <td><a href="https://www.youtube.com/watch?v=wWpu6UDYhc4&list=PLXaqTeMx01E-l20YhTNwN4xncM-1jweqG&index=19">PageRank</a></td> -->
-      <td><a>PageRank</a></td>
+      <td><a href="https://www.youtube.com/watch?v=wWpu6UDYhc4&list=PLXaqTeMx01E-l20YhTNwN4xncM-1jweqG&index=19">PageRank</a></td>
     </tr>
     <tr class="table-primary">
       <th scope="row">3/1</th>
       <td>Lecture</td>
       <td>L13</td>
-      <!-- <td><a href="https://www.youtube.com/watch?v=vhOH2GmuYrQ&list=PLXaqTeMx01E-l20YhTNwN4xncM-1jweqG&index=16">Interpreting IfArith</a></td> -->
-      <td><a>Interpreting IfArith</a></td>
+      <td><a href="https://www.youtube.com/watch?v=vhOH2GmuYrQ&list=PLXaqTeMx01E-l20YhTNwN4xncM-1jweqG&index=16">Interpreting IfArith</a></td>
+    </tr>
+    <tr class="table-primary">
+      <th scope="row">3/1</th>
+      <td>Lecture</td>
+      <td>L14</td>
+      <td><a href="https://www.youtube.com/watch?v=neCrsTf8h7Y&list=PLXaqTeMx01E-l20YhTNwN4xncM-1jweqG&index=17">Natural Deduction for IfArith</a></td>
     </tr>
     <tr class="table-primary">
       <th scope="row">3/3</th>
       <td>Lecture</td>
-      <td>L14</td>
-      <!-- <td><a href="https://www.youtube.com/watch?v=neCrsTf8h7Y&list=PLXaqTeMx01E-l20YhTNwN4xncM-1jweqG&index=17">Natural Deduction for IfArith</a></td> -->
-      <td><a>Natural Deduction for IfArith</a></td>
+      <td>L15</td>
+	  <td><a href="https://www.youtube.com/watch?v=Qq5Bzpsoi7k&list=PLXaqTeMx01E-l20YhTNwN4xncM-1jweqG&index=18">Small-Step Semantics of IfArith</a></td>
     </tr>
     <tr class="table-primary">
       <th scope="row">3/8</th>
       <td>Lecture</td>
-      <td>L15</td>
-      <!-- <td><a href="https://www.youtube.com/watch?v=Qq5Bzpsoi7k&list=PLXaqTeMx01E-l20YhTNwN4xncM-1jweqG&index=18">Small-Step Semantics of IfArith</a></td> -->
-      <td><a>Small-Step Semantics of IfArith</a></td>
-    </tr>
-    <tr class="table-primary">
-      <th scope="row">3/10</th>
-      <td>Lecture</td>
       <td>L16</td>
-      <!-- <td><a href="https://www.youtube.com/watch?v=RqA-m_QMJYc&list=PLXaqTeMx01E-l20YhTNwN4xncM-1jweqG&index=20">Lambda Calculus Introduction</a></td> -->
-      <td><a>Lambda Calculus Introduction</a></td>
+      <td><a href="https://www.youtube.com/watch?v=RqA-m_QMJYc&list=PLXaqTeMx01E-l20YhTNwN4xncM-1jweqG&index=20">Lambda Calculus Introduction</a></td>
     </tr>
     <tr class="table-primary">
-      <th scope="row">3/15</th>
+      <th scope="row">3/8</th>
       <td>Lecture</td>
       <td>L17</td>
-      <!-- <td><a href="https://www.youtube.com/watch?v=Paxvaq0Q-S0&list=PLXaqTeMx01E-l20YhTNwN4xncM-1jweqG&index=21">Lambda Calculus: Reductions and Substitution</a></td> -->
-      <td><a>Lambda Calculus: Reductions and Substitution</a></td>
+	  <td><a href="https://www.youtube.com/watch?v=Paxvaq0Q-S0&list=PLXaqTeMx01E-l20YhTNwN4xncM-1jweqG&index=21">Lambda Calculus: Reductions and Substitution</a></td>
+    </tr>
+    <tr class="table-danger">
+      <th scope="row">3/10</th>
+      <td>Quiz</td>
+      <td>Q1</td>
+      <td><strong>In-Person Quiz 2</strong></td>
     </tr>
     <tr class="table-primary">
       <th scope="row">3/17</th>
