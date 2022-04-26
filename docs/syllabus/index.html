@@ -155,9 +155,9 @@ based how much participation is done.</p>
 <p>There is a detailed chart below explaining the grading policy, but it
 is roughly this: (a) there are exams and projects, (b) if you get at
 least an 80% in one category and at least a 90% in the other, you will
-get an A (and so on), (c) if you get fewer than 20 participation
-points, you will get a “minus” taken from your grade in (b), [20-30)
-participation points will cause no change, and &gt;=30 participation
+get an A (and so on), (c) if you get fewer than <strike>20</strike>17 participation
+points, you will get a “minus” taken from your grade in (b), [<strike>20</strike> 17-<strike>30</strike> 27)
+participation points will cause no change, and &gt;=<strike>30</strike> 27 participation
 points will add a “plus” to the grade. Note that there is no A+,
 however, the professor will track this information for recommendation
 letters and references.</p>
@@ -209,8 +209,8 @@ to 100% for that question)</srike></li>
 <p>Participation:</p>
 <ul>
   <li>There are many opportunities for participation points, outlined
-below. You need at least 20 in the course, otherwise you will get a
-“minus” (e.g., A to A-). If you get more than 30 participation
+below. You need at least <strike>20</strike> 17 in the course, otherwise you will get a
+“minus” (e.g., A to A-). If you get more than <strike>30</strike> 27 participation
 points, you get a “plus” (e.g., A- to A).</li>
 </ul>
 
@@ -306,15 +306,15 @@ points, so gets an A.</li>
             </thead>
             <tbody>
               <tr>
-                <td class="smgradecol" id="part-minus" style="background-color: white;">&lt; 20</td>
+                <td class="smgradecol" id="part-minus" style="background-color: white;">&lt; <strike>20</strike> 17</td>
                 <th scope="row">-</th>
               </tr>
               <tr>
-                <td class="smgradecol" id="part-stay" style="background-color: white;">≥ 20 – &lt; 30</td>
+                <td class="smgradecol" id="part-stay" style="background-color: white;">≥ <strike>20</strike> 17 – &lt; 27 <strike>30</strike></td>
                 <th scope="row">=</th>
               </tr>
               <tr>
-                <td class="smgradecol" id="part-plus" style="background-color: white;">≥ 30</td>
+                <td class="smgradecol" id="part-plus" style="background-color: white;">≥ <strike>30</strike> 27</td>
                 <th scope="row">+</th>
               </tr>
             </tbody>
@@ -398,9 +398,9 @@ points, so gets an A.</li>
                       break;
                     }
                   }                  
-                  if (part < 20) {
+                  if (part < 17) {
                       highlight("part-minus");
-                  } else if (part >= 30) {
+                  } else if (part >= 27) {
                       highlight("part-plus");
                   } else {
                       highlight("part-stay");
@@ -459,8 +459,8 @@ points, so gets an A.</li>
                       if (result) {
                           place_highlights(high, low, pa, result)
                       }
-                      if(pa>=30) rowsink--;
-                      else if(pa<20) rowsink++;
+                      if(pa>=27) rowsink--;
+                      else if(pa<17) rowsink++;
                       if(rowsink>9){
                           result = "F";
                       }
@@ -485,8 +485,8 @@ points, so gets an A.</li>
 
 <h4 id="projects">Projects</h4>
 
-<p>There are <em>five programming projects</em> in the Racket programming
-language. Projects will generally have deadlines of roughly 12
+<p>There are <em><strike>five</strike> four programming projects</em> in the Racket programming
+language, plus a bonus project. Projects will generally have deadlines of roughly 12
 calendar days from their assignment (though this may be adjusted at
 times). Projects will be graded using an <em>autograder</em> whose URL is
 <a href="https://autograde.org">https://autograde.org</a>. You will receive
